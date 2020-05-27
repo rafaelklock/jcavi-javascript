@@ -1,4 +1,5 @@
-# Curso JavaScript - Material de Apoio - JCAVI Treinamentos
+# Curso [JavaScript](https://www.jcavitreinamentos.com.br/javascript) - Material de Apoio
+## JCAVI Treinamentos
 
 Este repositório armazena o material de apoio para o curso JavaScript da JCAVI Treinamentos.
 
