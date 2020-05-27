@@ -6,21 +6,21 @@ Carga Horária: 40 horas
 
 Conteúdo Programático:
 
-Introdução ao JavaScript
-Variáveis
-Escopo
-Funções
-Closures
-Tipos
-Tipagem dinâmica
-Operador typeof
-Operadores aritméticos, lógicos e de comparação
-Operador ternário
-Arrays
-Objetos
-Eventos
-Temporizadores
-Ajax
-DOM
-Prototype
+* Introdução ao JavaScript
+* Variáveis
+* Escopo
+* Funções
+* Closures
+* Tipos
+* Tipagem dinâmica
+* Operador typeof
+* Operadores aritméticos, lógicos e de comparação
+* Operador ternário
+* Arrays
+* Objetos
+* Eventos
+* Temporizadores
+* Ajax
+* DOM
+* Prototype
 
