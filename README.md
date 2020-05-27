@@ -2,10 +2,13 @@
 
 Este repositório armazena o material de apoio para o curso JavaScript da JCAVI Treinamentos.
 
-Carga Horária: 40 horas
+### Pré requisito:
+Lógica de Programação
 
-Conteúdo Programático:
+### Carga Horária:
+40 horas
 
+### Conteúdo Programático:
 * Introdução ao JavaScript
 * Variáveis
 * Escopo
