@@ -6,16 +6,19 @@ Corrija o código abaixo para que seja exibida no browser a string
 */
 
 let umaVar = "abc";
-let outraVar = "xyy";
+let outraVar = "xyz";
 
-document.write(umavar);
-document.write(outraVar);
+document.write(umaVar+'<br/>');
+document.write(outraVar+"<br/>");
 
 /*
 Declare uma variável de nome "_teste", inicializando esta variável com
 o valor "valorA". Declare novamente a mesma variável com o mesmo valor.
 Informe o que é exibido no console do browser.
 */
+let _teste = 'valorA';
+/* Uncaught SyntaxError: Identifier '_teste' has already been declared */
+
 
 /*
 Declare uma variável de qualquer nome, inicializando esta variável com 
@@ -24,6 +27,10 @@ com o valor "11". Concatene estes valores e exiba o resultado no console do
 browser. 
 */
 
+let valorA = 1000;
+let valorB = "11";
+console.log(valorA+valorB);
+
 /*
 Declare uma variável com o nome "thisVar" sem inicializá-la. Atribua à ela,
 na sequencia, o valor "qwerty". Atribua o conteúdo desta variável à outra
@@ -31,4 +38,13 @@ variável, com o nome "thatVar". Exiba no browser o conteúdo destas duas
 variáveis em linhas diferentes. 
 */
 
+let thisVar;
+thisVar = "qwerty";
+thatVar = thisVar;
+
+document.write("thisVar: ", thisVar, "<br/>");
+document.write("thatVar: ", thatVar, "<br/>");
+
+
 </script>
+
