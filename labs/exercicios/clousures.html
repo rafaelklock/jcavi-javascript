@@ -1,0 +1,66 @@
+<script>
+/*
+Corrija o código a seguir de maneira que sejam exibidos os dados abaixo
+no console do seu browser, na seguinte ordem:
+{nome: "Luzia Teresinha Alves", cpf: "873.328.032-08", rg: "35.847.477-2", matricula: "0001"}
+{nome: "Arthur Mário Aparício", cpf: "137.036.085-10", rg: "15.205.257-4", matricula: "0002"}
+{nome: "Marcos Vinicius Thiago Moreira", cpf: "680.334.687-00", rg: "48.417.509-9", matricula: "0003"}
+{nome: "Luzia Teresinha Alves", cpf: "873.328.032-08", rg: "35.847.477-2", matricula: "0001"}
+*/
+
+let nome = null;
+let cpf = null;
+let rg = null;
+let matricula = null;
+
+
+
+function buscaDadosFuncionario(dados) {
+
+    nome = dados.nome;
+    cpf = dados.cpf;
+    rg = dados.rg;
+    matricula = dados.matricula;
+
+        return {
+            nome: nome,
+            cpf: cpf,
+            rg: rg,
+            matricula: matricula
+        };
+}
+
+let dadosFuncionario_0001 = buscaDadosFuncionario(
+    {
+        nome: "Luzia Teresinha Alves",
+        cpf: "873.328.032-08",
+        rg: "35.847.477-2",
+        matricula: "0001"
+    }
+);
+
+let dadosFuncionario_0002 = buscaDadosFuncionario(
+    {
+        nome: "Arthur Mário Aparício",
+        cpf: "137.036.085-10",
+        rg: "15.205.257-4",
+        matricula: "0002"
+    }
+);
+
+let dadosFuncionario_0003 = buscaDadosFuncionario(
+    {
+        nome: "Marcos Vinicius Thiago Moreira",
+        cpf: "680.334.687-00",
+        rg: "48.417.509-9",
+        matricula: "0003"
+    }
+);
+
+console.log(dadosFuncionario_0001);
+console.log(dadosFuncionario_0002);
+console.log(dadosFuncionario_0003);
+console.log(dadosFuncionario_0001);
+
+
+</script>

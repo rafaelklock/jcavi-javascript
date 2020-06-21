@@ -1,0 +1,17 @@
+<script>
+
+function pai(){
+   var x = 1;
+   function filho(){
+     console.log(x);
+     x++;
+   }
+   return filho;
+}
+
+var contador = pai();
+contador();    // 1
+contador();    // 2
+contador();    // 3
+
+</script>

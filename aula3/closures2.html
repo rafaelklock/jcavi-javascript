@@ -1,0 +1,15 @@
+<script>
+
+function retornaDobro(parametro) {
+    let numero = parametro;
+    return function() {
+        return numero * 2;
+    }
+}
+
+
+let dobroDez = retornaDobro(10);
+
+console.log(dobroDez());
+
+</script>
